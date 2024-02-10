@@ -18,4 +18,11 @@ Apply the migrations:
 /usr/bin/docker-compose exec backend aerich upgrade
 ```
 
-Ensure [http://localhost:5000](http://localhost:5000), [http://localhost:5000/docs](http://localhost:5000/docs), and [http://localhost:8080](http://localhost:8080) work as expected.
+```sh
+/usr/bin/docker-compose -f docker-compose.yml -p fastapi-vue stop backend frontend db
+```
+
+
+Ensure [http://localhost:5000](http://localhost:5000),
+[http://localhost:5000/docs](http://localhost:5000/docs), 
+and [http://localhost:8080](http://localhost:8080) work as expected.
