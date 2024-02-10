@@ -18,6 +18,8 @@ Apply the migrations:
 /usr/bin/docker-compose exec backend aerich upgrade
 ```
 
+Stop containers
+
 ```sh
 /usr/bin/docker-compose -f docker-compose.yml -p fastapi-vue stop backend frontend db
 ```
