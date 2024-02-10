@@ -19,7 +19,7 @@ import { defineComponent } from 'vue';
 import { mapActions } from 'vuex';
 
 export default defineComponent({
-  name: 'Login',
+  name: 'Login-view',
   data() {
     return {
       form: {
